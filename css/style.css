@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+.header{
+    background-color: rgb(83, 83, 83);
+    color: white;
+    height: 50px;
+    line-height: 50px;
+}
+
+.header a{
+    float:right;
+    margin-top: 5px;
+}
+
+body{
+    font-family: 'Cairo', sans-serif;
+}
+
+.future {
+    margin-top: 75px;
+}
+
+.future i{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    line-height: 100px;
+    color: white;
+}
+
+.future h3{
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.future p{
+    color: rgb(136, 133, 133);
+    line-height: 1.8;
+}
+
+.our-team {
+    margin: 0px;
+    height: 100%;
+    background-color: ghostwhite;
+}
+
+.our-team .card{
+    margin-left: 10px;
+    margin-bottom: 60px;
+}
+
+.statistic {
+    width: 100%;
+    background-color: url('../image/new.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.statistic .overly{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: rgba(0, 0, 0, 0.219);
+}
+
+.statistic .overly h3{
+    color: black;
+}
+
+.statistic .overly p{
+    color: rgb(138, 138, 138);
+    font-size: 60px;
+}
+
+.our-custmar{
+    background-color:rgba(187, 160, 160, 0.219);
+    line-height: 30px;
+    width: 100%;
+    height: 100%;
+    background-image: url('/image/gray-abstract-wireframe-technology-background.jpg');
+}
+
+.our-custmar img{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+.news .btn-danger{
+    background-color: rgb(226, 43, 43);
+    border-color: brown;
+}
+
+.news .btn-danger:hover{
+    background-color: darkblue;
+}
+
+
+footer{
+    background-color: rgb(204, 78, 78);
+    padding-top:30px ;
+    margin-top: 60px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    color: white;
+}
+
+footer h2{
+    color: white;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: black;
+}
+
+footer  li{
+    list-style: none;
+}
+
+.jumbotron {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jumbotron .blige-info{
+    float: 2;
+}
+
+.jumbotron .blige-img{
+    float: 1;
+}
+
+
+.blog-detel p{
+ line-height: 2;
+ padding: 10px;
+}
+
+.blog-detel img{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.courss img:hover{
+    transform: scale(1.09);
+}
